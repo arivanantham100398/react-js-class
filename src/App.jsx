@@ -7,6 +7,10 @@ import Product from "./pages/Product"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
 import HomePage from "./pages/HomePage"
+import Login from "./pages/Login"
+import Test from "./pages/Test"
+import Users from "./pages/Users"
+import CounterApp from "./components/CounterApp"
 
 function App() {
 
@@ -19,6 +23,9 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:name" element={<Product />} />
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/counter" element={<CounterApp/>}/>
+        <Route path="/users" element={<Users/>}/>
       </Routes>
       <Footer />
     </div>
