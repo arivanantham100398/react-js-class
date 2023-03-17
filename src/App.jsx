@@ -8,9 +8,10 @@ import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
 import HomePage from "./pages/HomePage"
 import Login from "./pages/Login"
-import Test from "./pages/Test"
 import Users from "./pages/Users"
 import CounterApp from "./components/CounterApp"
+import Form from "./pages/Form"
+import Calc from "./components/Calc"
 
 function App() {
 
@@ -26,6 +27,8 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/counter" element={<CounterApp/>}/>
         <Route path="/users" element={<Users/>}/>
+        <Route path="/form" element={<Form/>}/>
+        <Route path="/calc" element={<Calc/>}/>
       </Routes>
       <Footer />
     </div>
