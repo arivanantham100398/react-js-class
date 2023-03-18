@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import TwoColumnLayout from "../components/TwoColumnLayout";
 
-function HomePage(name) {
-    // const navigate = useNavigate()
+function HomePage() {
+    
     return (
         <>
             <TwoColumnLayout
